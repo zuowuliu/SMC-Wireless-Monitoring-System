@@ -30,6 +30,16 @@
     <url-pattern>/</url-pattern>
   </servlet-mapping>
 
+    <servlet>
+        <description></description>
+        <display-name>FileDownloadServlet</display-name>
+        <servlet-name>FileDownloadServlet</servlet-name>
+        <servlet-class>com.ren.filedownload.FileDownloadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FileDownloadServlet</servlet-name>
+        <url-pattern>/downloadFile</url-pattern>
+    </servlet-mapping>
   <!--spring内置的用来指定请求或者响应的编码格式的过滤器的一种-->
   <filter>
     <filter-name>encodingFilter</filter-name>
