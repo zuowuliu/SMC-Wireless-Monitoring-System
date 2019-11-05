@@ -1,0 +1,2 @@
+Wireless monitoring system for SMC pneumatic test platform£º
+The data collected by the remote gateway is displayed to the monitoring terminal in real time..
